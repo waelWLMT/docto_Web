@@ -25,10 +25,16 @@
               "src/assets"
             ],
             "styles": [
+              "src/styles.css",
               "node_modules/angular-calendar/css/angular-calendar.css",
-              "src/styles.css"
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",              
+              "node_modules/@fortawesome/fontawesome-free/css/all.css",             
+              "node_modules/flatpickr/dist/flatpickr.css"
             ],
-            "scripts": []
+            "scripts": [      
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
+              "src/assets/js/side-bar-script.js"           
+            ]
           },
           "configurations": {
             "production": {
@@ -90,12 +96,14 @@
             "styles": [
               "src/styles.css",
               "node_modules/angular-calendar/css/angular-calendar.css",
-              "node_modules/bootstrap/dist/css/bootsrap.min.css",
-              "node_modules/@fortawesome/fontawesome-free/css/all.css",
-              "node_modules/angular-calendar/css/angular-calendar.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/@fortawesome/fontawesome-free/css/all.css",             
               "node_modules/flatpickr/dist/flatpickr.css"
             ],
-            "scripts": []
+            "scripts": [      
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
+              "src/assets/js/side-bar-script.js"           
+            ]
           }
         }
       }

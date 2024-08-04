@@ -10,6 +10,7 @@ import { FormsModule } from '@angular/forms';
 import { NgbModalModule } from '@ng-bootstrap/ng-bootstrap';
 import { FlatpickrModule } from 'angularx-flatpickr';
 import { AppComponent } from './app.component';
+import { SharedModule } from './shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { AppComponent } from './app.component';
     CommonModule,
     FormsModule,
     NgbModalModule,
+    SharedModule,
     FlatpickrModule.forRoot(),
     BrowserModule,
     AppRoutingModule,

@@ -11,10 +11,14 @@ import { NgbModalModule } from '@ng-bootstrap/ng-bootstrap';
 import { FlatpickrModule } from 'angularx-flatpickr';
 import { AppComponent } from './app.component';
 import { SharedModule } from './shared/shared.module';
+import { LoginComponent } from './login/login.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LoginComponent,
+    HomeComponent
   ],
   imports: [
     CommonModule,
